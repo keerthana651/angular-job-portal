@@ -1,0 +1,108 @@
+<div class="container register-page">
+
+  <div class="row justify-content-center align-items-center">
+
+    <div class="col-lg-10">
+
+      <div class="card register-card shadow-lg">
+
+        <div class="row g-0">
+
+          <!-- Left Panel -->
+          <div class="col-md-6 left-panel">
+
+            <div class="text-center">
+
+              <i class="bi bi-person-plus-fill hero-icon"></i>
+
+              <h2 class="mt-4">Create Account</h2>
+
+              <p>
+                Join JobPortal and discover your dream career.
+              </p>
+
+            </div>
+
+          </div>
+
+          <!-- Right Panel -->
+          <div class="col-md-6">
+
+            <div class="p-5">
+
+              <h3 class="fw-bold mb-4">Register</h3>
+
+              <form #f="ngForm" (ngSubmit)="register()">
+
+                <div class="mb-3">
+                  <label>Full Name</label>
+                  <input class="form-control"
+                         name="name"
+                         [(ngModel)]="user.name"
+                         required>
+                </div>
+
+                <div class="mb-3">
+                  <label>Email</label>
+                  <input type="email"
+                         class="form-control"
+                         name="email"
+                         [(ngModel)]="user.email"
+                         required>
+                </div>
+
+                <div class="mb-3">
+                  <label>Password</label>
+                  <input type="password"
+                         class="form-control"
+                         name="password"
+                         [(ngModel)]="user.password"
+                         required>
+                </div>
+
+                <div class="mb-4">
+                  <label>Confirm Password</label>
+                  <input type="password"
+                         class="form-control"
+                         name="confirmPassword"
+                         [(ngModel)]="user.confirmPassword"
+                         required>
+                </div>
+
+                <button
+                  class="btn btn-success w-100"
+                  [disabled]="f.invalid">
+
+                  Create Account
+
+                </button>
+
+              </form>
+
+              <hr>
+
+              <p class="text-center">
+
+                Already have an account?
+
+                <a routerLink="/login">
+
+                  Login
+
+                </a>
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,22 @@
+<div class="container mt-4">
+  <div class="container py-5">
+  <div class="alert alert-info text-center" *ngIf="!loading && filteredJobs.length === 0">
+    No jobs available.
+  </div>
+  <h2 class="mb-4">Available Jobs</h2>
+
+  <input class="form-control mb-4" placeholder="Search..." [(ngModel)]="searchText" (input)="searchJobs()">
+
+  <div *ngIf="loading" class="text-center mt-4">
+    <div class="spinner-border text-primary"></div>
+    <p>Loading jobs...</p>
+  </div>
+
+  <div class="alert alert-warning" *ngIf="!loading && filteredJobs.length === 0">
+    No jobs found.
+  </div>
+
+  <app-job-card *ngFor="let job of filteredJobs" [job]="job" (delete)="deleteJob($event)">
+  </app-job-card>
+
+</div>

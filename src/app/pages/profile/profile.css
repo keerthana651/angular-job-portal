@@ -1,0 +1,39 @@
+.profile-card{
+    border:none;
+    border-radius:20px;
+}
+
+.profile-avatar{
+    width:130px;
+    height:130px;
+    margin:auto;
+    background:#DBEAFE;
+    color:#2563EB;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:65px;
+}
+
+.info-box{
+    background:#F8FAFC;
+    border-radius:12px;
+    padding:20px;
+}
+
+.stats-box{
+    background:#EFF6FF;
+    border-radius:12px;
+    padding:20px;
+    transition:.3s;
+}
+
+.stats-box:hover{
+    transform:translateY(-5px);
+}
+
+.btn{
+    border-radius:10px;
+    min-width:160px;
+}

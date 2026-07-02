@@ -1,0 +1,33 @@
+.company-logo{
+    width:90px;
+    height:90px;
+    border-radius:20px;
+    background:#DBEAFE;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    color:#2563EB;
+}
+
+.info-box{
+    background:#F8FAFC;
+    border-radius:12px;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:600;
+}
+
+.card{
+    border-radius:20px;
+}
+
+.btn{
+    border-radius:10px;
+}
+
+p{
+    line-height:1.8;
+}

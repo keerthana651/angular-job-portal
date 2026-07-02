@@ -1,0 +1,40 @@
+.register-page{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+}
+
+.register-card{
+    border:none;
+    border-radius:25px;
+    overflow:hidden;
+}
+
+.left-panel{
+    background:linear-gradient(135deg,#16A34A,#22C55E);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:50px;
+}
+
+.hero-icon{
+    font-size:100px;
+}
+
+.form-control{
+    height:50px;
+    border-radius:10px;
+}
+
+.btn{
+    height:50px;
+    border-radius:10px;
+    font-weight:600;
+}
+
+a{
+    text-decoration:none;
+    font-weight:600;
+}

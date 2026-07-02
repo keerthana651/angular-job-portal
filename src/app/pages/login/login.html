@@ -1,0 +1,97 @@
+<div class="container login-page">
+
+  <div class="row justify-content-center align-items-center">
+
+    <div class="col-lg-10">
+
+      <div class="card login-card shadow-lg">
+
+        <div class="row g-0">
+
+          <!-- Left Side -->
+          <div class="col-md-6 left-panel">
+
+            <div class="text-center">
+
+              <i class="bi bi-person-workspace hero-icon"></i>
+
+              <h2 class="mt-4">Welcome Back</h2>
+
+              <p>
+                Login to continue your job search and manage your applications.
+              </p>
+
+            </div>
+
+          </div>
+
+          <!-- Right Side -->
+          <div class="col-md-6">
+
+            <div class="p-5">
+
+              <h3 class="fw-bold mb-4">Login</h3>
+
+              <form (ngSubmit)="login()">
+
+                <div class="mb-3">
+
+                  <label>Email</label>
+
+                  <input
+                    type="email"
+                    class="form-control"
+                    [(ngModel)]="email"
+                    name="email"
+                    required>
+
+                </div>
+
+                <div class="mb-4">
+
+                  <label>Password</label>
+
+                  <input
+                    type="password"
+                    class="form-control"
+                    [(ngModel)]="password"
+                    name="password"
+                    required>
+
+                </div>
+
+                <button class="btn btn-primary w-100">
+
+                  Login
+
+                </button>
+
+              </form>
+
+              <hr>
+
+              <p class="text-center">
+
+                Don't have an account?
+
+                <a routerLink="/register">
+
+                  Register
+
+                </a>
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

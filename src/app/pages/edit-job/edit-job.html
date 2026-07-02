@@ -1,0 +1,55 @@
+<div class="container mt-5" *ngIf="job">
+
+  <div class="card shadow">
+
+    <div class="card-header bg-warning">
+      <h3>Edit Job</h3>
+    </div>
+
+    <div class="card-body">
+
+      <form #f="ngForm" (ngSubmit)="updateJob()">
+
+        <input class="form-control mb-3"
+               name="title"
+               [(ngModel)]="job.title"
+               required>
+
+        <input class="form-control mb-3"
+               name="company"
+               [(ngModel)]="job.company"
+               required>
+
+        <input class="form-control mb-3"
+               name="location"
+               [(ngModel)]="job.location"
+               required>
+
+        <input class="form-control mb-3"
+               name="salary"
+               [(ngModel)]="job.salary"
+               required>
+
+        <input class="form-control mb-3"
+               name="experience"
+               [(ngModel)]="job.experience"
+               required>
+
+        <textarea class="form-control mb-3"
+                  rows="5"
+                  name="description"
+                  [(ngModel)]="job.description"
+                  required>
+        </textarea>
+
+        <button class="btn btn-success">
+          Update Job
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>

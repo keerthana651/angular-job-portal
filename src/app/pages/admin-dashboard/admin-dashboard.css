@@ -1,0 +1,50 @@
+body{
+    background:#F5F7FB;
+}
+
+.dashboard-title{
+    font-weight:700;
+    color:#1E293B;
+}
+
+.stat-card{
+    border:none;
+    border-radius:18px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.stat-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.stat-card .card-body{
+    padding:30px;
+}
+
+.stat-card i{
+    font-size:45px;
+}
+
+.quick-card{
+    border:none;
+    border-radius:18px;
+}
+
+.quick-card .card-header{
+    background:#1E3A8A;
+    color:white;
+    font-size:20px;
+    font-weight:600;
+}
+
+.btn{
+    border-radius:10px;
+    padding:12px;
+    font-weight:600;
+}
+
+.card{
+    border:none;
+}

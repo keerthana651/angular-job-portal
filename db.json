@@ -1,0 +1,66 @@
+{
+  "jobs": [
+    {
+      "id": "3",
+      "title": "React Developer",
+      "company": "Wipro",
+      "location": "Hyderabad",
+      "salary": "₹8 LPA",
+      "experience": "3 Years",
+      "description": "React and TypeScript."
+    },
+    {
+      "id": "JEtLq5Wwkck",
+      "title": "front end developere",
+      "company": "einnel",
+      "location": "kanchi",
+      "salary": "30000",
+      "experience": "2",
+      "description": "i am fresher"
+    },
+    {
+      "id": "P8ONQ1SlV9g",
+      "title": "front end developer",
+      "company": "cognizent",
+      "location": "chennai",
+      "salary": "20000",
+      "experience": "2-3 Years",
+      "description": "good skilled employee"
+    }
+  ],
+  "applications": [
+    {
+      "jobId": null,
+      "jobTitle": "Frontend Developer",
+      "company": "TCS",
+      "applicantName": "Keerthana",
+      "applicantEmail": "keerthana@gmail.com",
+      "id": "-M_cOah7Mqw"
+    },
+    {
+      "jobId": "3",
+      "jobTitle": "React Developer",
+      "company": "Wipro",
+      "applicantName": "Keerthana",
+      "applicantEmail": "keerthana@gmail.com",
+      "id": "MbuDqrkoOGc"
+    },
+    {
+      "jobId": null,
+      "jobTitle": "azure aws",
+      "company": "TCS",
+      "applicantName": "Keerthana",
+      "applicantEmail": "keerthana@gmail.com",
+      "id": "zw0qebN1TuM"
+    },
+    {
+      "jobId": null,
+      "jobTitle": "azure aws",
+      "company": "TCS",
+      "applicantName": "Keerthana",
+      "applicantEmail": "keerthana@gmail.com",
+      "id": "drO5N_k1YB0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

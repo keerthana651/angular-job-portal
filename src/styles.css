@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap-icons/font/bootstrap-icons.css";
+/* Google Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  body{
+
+    background:#F8FAFC;
+
+    padding-top:70px;
+
+}
+}
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+    background: #0F172A !important;
+    padding: 14px 0;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, .08);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: #CBD5E1 !important;
+    font-weight: 500;
+    margin-left: 12px;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+.nav-link.active {
+    color: #60A5FA !important;
+}
+
+/* ---------- Buttons ---------- */
+
+.btn {
+    border-radius: 10px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-primary {
+    background: #2563EB;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #1D4ED8;
+}
+
+.btn-warning {
+    color: white;
+}
+
+.btn-danger {
+    border: none;
+}
+
+/* ---------- Cards ---------- */
+
+.card {
+    border: none;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, .08);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .12);
+}
+
+/* ---------- Forms ---------- */
+
+.form-control {
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #2563EB;
+    box-shadow: 0 0 8px rgba(37, 99, 235, .2);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: 700;
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

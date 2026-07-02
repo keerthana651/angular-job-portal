@@ -1,0 +1,46 @@
+.application-table{
+
+    border-radius:15px;
+    overflow:hidden;
+    background:white;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+}
+
+thead{
+
+    background:#2563EB;
+    color:white;
+
+}
+
+th{
+
+    padding:18px;
+
+}
+
+td{
+
+    padding:18px;
+
+}
+
+tbody tr:hover{
+
+    background:#F8FAFC;
+
+}
+
+.badge{
+
+    padding:8px 15px;
+    border-radius:20px;
+
+}
+
+.btn{
+
+    border-radius:10px;
+
+}

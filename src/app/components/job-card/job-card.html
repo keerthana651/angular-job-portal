@@ -1,0 +1,87 @@
+<div class="card job-card mb-4">
+
+  <div class="card-body">
+
+    <div class="d-flex justify-content-between align-items-start">
+
+      <div class="d-flex">
+
+        <div class="company-logo me-3">
+          <i class="bi bi-buildings-fill"></i>
+        </div>
+
+        <div>
+
+          <h4 class="job-title mb-1">
+            {{ job.title }}
+          </h4>
+
+          <h6 class="company-name mb-3">
+            {{ job.company }}
+          </h6>
+
+        </div>
+
+      </div>
+
+      <span class="badge bg-primary">
+        Full Time
+      </span>
+
+    </div>
+
+    <div class="row mt-3">
+
+      <div class="col-md-4 mb-2">
+        <i class="bi bi-geo-alt-fill text-danger"></i>
+        {{ job.location }}
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <i class="bi bi-briefcase-fill text-primary"></i>
+        {{ job.experience }}
+      </div>
+
+      <div class="col-md-4 mb-2">
+        <i class="bi bi-cash-stack text-success"></i>
+        {{ job.salary }}
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="d-flex flex-wrap gap-2">
+
+      <a
+        class="btn btn-primary"
+        [routerLink]="['/job-details', job.id]">
+
+        <i class="bi bi-eye-fill"></i>
+        View Details
+
+      </a>
+
+      <a
+        class="btn btn-warning"
+        [routerLink]="['/edit-job', job.id]">
+
+        <i class="bi bi-pencil-fill"></i>
+        Edit
+
+      </a>
+
+      <button
+        class="btn btn-danger"
+        (click)="onDelete()">
+
+        <i class="bi bi-trash-fill"></i>
+        Delete
+
+      </button>
+
+    </div>
+
+  </div>
+
+</div>

@@ -10,7 +10,7 @@ export class JobService {
 
   private http = inject(HttpClient);
 
-  private api = 'http://localhost:3000/jobs';
+  private api = 'https://job-portal-api-alls.onrender.com/jobs';
 
   getJobs(): Observable<Job[]> {
     return this.http.get<Job[]>(this.api);

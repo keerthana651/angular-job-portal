@@ -10,7 +10,7 @@ export class ApplicationService {
 
   private http = inject(HttpClient);
 
-  private api = 'http://localhost:3000/applications';
+  private api = 'https://job-portal-api-alls.onrender.com/applications';
 
   applyJob(application: Application): Observable<Application> {
     return this.http.post<Application>(this.api, application);
